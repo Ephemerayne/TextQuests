@@ -6,6 +6,11 @@
       {
         "targetNodeId": 1,
         "optionText": "Далее"
+      },
+      {
+        "targetNodeId": 0,
+        "optionText": "Вернуться в пролог",
+        "goToGraph": "prologue.json"
       }
     ]
   },
