@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "text": "Часть 1",
+    "options": [
+      {
+        "targetNodeId": 1,
+        "optionText": "Далее"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "text": "Часть 1 продолжение",
+    "options": [
+      {
+        "targetNodeId": 2,
+        "optionText": "Далее"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Часть 1 с вариантами",
+    "options": [
+      {
+        "targetNodeId": 1,
+        "optionText": "Вариант 1"
+      },
+      {
+        "targetNodeId": 1,
+        "optionText": "Вариант 2"
+      },
+      {
+        "targetNodeId": 0,
+        "optionText": "Вариант 3"
+      },
+      {
+        "targetNodeId": 0,
+        "optionText": "Вариант 4"
+      }
+    ]
+  }
+]

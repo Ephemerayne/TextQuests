@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "text": "Пролог текст 1",
+    "options": [
+      {
+        "targetNodeId": 1,
+        "optionText": "Далее"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "text": "Пролог текст 2",
+    "options": [
+      {
+        "targetNodeId": 2,
+        "optionText": "Далее"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Пролог текст 2 с вариантами",
+    "options": [
+      {
+        "targetNodeId": 1,
+        "optionText": "Вариант 1"
+      },
+      {
+        "targetNodeId": 3,
+        "optionText": "Вариант 2"
+      },
+      {
+        "targetNodeId": 4,
+        "optionText": "Вариант 3"
+      },
+      {
+        "targetNodeId": 5,
+        "optionText": "Вариант 4"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Чето блаблабла",
+    "options": [
+      {
+        "targetNodeId": 5,
+        "optionText": "Вариант 1"
+      },
+      {
+        "targetNodeId": 5,
+        "optionText": "Вариант 2"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "блаблабла",
+    "options": [
+      {
+        "targetNodeId": 3,
+        "optionText": "Вариант 1"
+      },
+      {
+        "targetNodeId": 5,
+        "optionText": "Вариант 2"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Чето блаблабла",
+    "options": [
+      {
+        "targetNodeId": 0,
+        "optionText": "Уйти",
+        "goToGraph": "part1.json"
+      }
+    ]
+  }
+]
